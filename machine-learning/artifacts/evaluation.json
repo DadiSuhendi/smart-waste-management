@@ -1,0 +1,64 @@
+{
+  "accuracy": 0.9832402234636871,
+  "target_accuracy": 0.8,
+  "target_met": true,
+  "test_count": 179,
+  "classes": [
+    "organic",
+    "paper",
+    "plastic"
+  ],
+  "confusion_matrix": [
+    [
+      59,
+      0,
+      0
+    ],
+    [
+      0,
+      58,
+      2
+    ],
+    [
+      1,
+      0,
+      59
+    ]
+  ],
+  "classification_report": {
+    "organic": {
+      "precision": 0.9833333333333333,
+      "recall": 1.0,
+      "f1-score": 0.9915966386554622,
+      "support": 59.0
+    },
+    "paper": {
+      "precision": 1.0,
+      "recall": 0.9666666666666667,
+      "f1-score": 0.9830508474576272,
+      "support": 60.0
+    },
+    "plastic": {
+      "precision": 0.9672131147540983,
+      "recall": 0.9833333333333333,
+      "f1-score": 0.9752066115702479,
+      "support": 60.0
+    },
+    "accuracy": 0.9832402234636871,
+    "macro avg": {
+      "precision": 0.9835154826958106,
+      "recall": 0.9833333333333334,
+      "f1-score": 0.9832846992277791,
+      "support": 179.0
+    },
+    "weighted avg": {
+      "precision": 0.9835165002900144,
+      "recall": 0.9832402234636871,
+      "f1-score": 0.983238263811982,
+      "support": 179.0
+    }
+  },
+  "model_sha256": "0f887bf8c66e5c3801a0e0754d5104a7d442e4f15865e73c9482169399155ace",
+  "manifest_sha256": "a1950235015c620417d703037709bc1e915f9f932fac7c8823d0fc175ec92200",
+  "evaluated_at": "2026-11-01T15:49:55.874585+00:00"
+}

@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+     organic     0.9833    1.0000    0.9916        59
+       paper     1.0000    0.9667    0.9831        60
+     plastic     0.9672    0.9833    0.9752        60
+
+    accuracy                         0.9832       179
+   macro avg     0.9835    0.9833    0.9833       179
+weighted avg     0.9835    0.9832    0.9832       179

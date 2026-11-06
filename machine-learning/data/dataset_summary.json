@@ -1,0 +1,30 @@
+{
+  "source": "RealWaste \u2014 Sam Single et al.",
+  "revision": "156e8e9154eeb163df30fcfd767f55b19633bb06",
+  "license": "CC BY-NC-SA 4.0",
+  "seed": 42,
+  "deduplication": "Exact decoded pixels or 64-bit difference hash Hamming distance <= 5; excluded before split.",
+  "downloaded": 1200,
+  "splits": {
+    "train": {
+      "organic": 275,
+      "paper": 277,
+      "plastic": 280
+    },
+    "val": {
+      "organic": 59,
+      "paper": 59,
+      "plastic": 60
+    },
+    "test": {
+      "organic": 59,
+      "paper": 60,
+      "plastic": 60
+    },
+    "excluded_duplicate": {
+      "organic": 7,
+      "paper": 4,
+      "plastic": 0
+    }
+  }
+}
